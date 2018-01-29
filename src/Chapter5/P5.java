@@ -1,13 +1,13 @@
 package Chapter5;
+
 import java.util.Scanner;
+
 /**
  * Accumulates user votes if they are in favor of something or not from console
  * input Terminates with q
  *
  * @author jm0982431
  */
-
-
 public class P5 {
 
     /**

@@ -1,17 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter7;
 
 import java.util.Scanner;
 
 /**
+ * Determines letter grade across a number of inputed grades
  *
  * @author James Miller
  */
 public class C7_1 {
+
     /**
      * Main Method
      *
@@ -35,7 +32,7 @@ public class C7_1 {
             }
 
         }
-        
+
         for (int x = 0; x < gradeNum; x++) {
             if (grades[x] >= max - 10) {
                 gradeLabel[x] = 'A';

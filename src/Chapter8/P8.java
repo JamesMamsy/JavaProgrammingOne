@@ -9,6 +9,11 @@ import java.util.Scanner;
  */
 public class P8 {
 
+    /**
+     * main method
+     *
+     * @param args arguments from console
+     */
     public static void main(String[] args) {
         //initialize dataset and variables
         double[][] salesData = {
