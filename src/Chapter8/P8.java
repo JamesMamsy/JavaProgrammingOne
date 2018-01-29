@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter8;
 
 import java.util.Scanner;
@@ -14,6 +9,11 @@ import java.util.Scanner;
  */
 public class P8 {
 
+    /**
+     * main method
+     *
+     * @param args arguments from console
+     */
     public static void main(String[] args) {
         //initialize dataset and variables
         double[][] salesData = {
@@ -34,7 +34,7 @@ public class P8 {
         //While user is not saying no
         while (!reply.equals("N")) {
 
-            //Prompt id and verify its valid 
+            //Prompt id and verify its valid
             idIndex = -1;
 
             while (idIndex == -1) {
@@ -47,7 +47,7 @@ public class P8 {
                 }
             }
 
-            //Prompt for day and verify 
+            //Prompt for day and verify
             isValidDay = -1;
 
             while (isValidDay == -1) {
@@ -60,7 +60,7 @@ public class P8 {
                 }
             }
 
-            //Prompt for sale value 
+            //Prompt for sale value
             System.out.println("Enter the amount of the sale ");
             ammount = in.nextDouble();
 

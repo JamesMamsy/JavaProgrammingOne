@@ -1,57 +1,70 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter7;
 
 import java.util.Scanner;
 
 /**
+ * Takes an array size and contents from user, then displays the average numbers
  *
  * @author James Miller
  */
 public class P7 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] mainArray;
         double avg;
-        
+
         System.out.println("Enter Array Size:");
         mainArray = new int[in.nextInt()];
-        
+
         fillArray(mainArray);
         avg = average(mainArray);
-        System.out.println("The average is "+ avg);
-        
+        System.out.println("The average is " + avg);
+
         printArray(mainArray);
-        
+
     }
-    
-    static void fillArray(int[] a){
-    
-            Scanner in = new Scanner(System.in);
-            for(int x = 0; x < a.length; x++){
+
+    /**
+     * Takes inputs from user to fill index in an array
+     *
+     * @param a Array to be filled
+     */
+    static void fillArray(int[] a) {
+
+        Scanner in = new Scanner(System.in);
+        for (int x = 0; x < a.length; x++) {
             System.out.println("Enter a Number:");
             a[x] = in.nextInt();
-            }
+        }
     }
-    
-    static double average(int[] a){
+
+    /**
+     * Calculated average of an array of number
+     *
+     * @param a Numbers for average to be found
+     * @return Average of values
+     */
+    static double average(int[] a) {
         double sum = 0;
-        for(int x = 0; x < a.length; x++){
+        for (int x = 0; x < a.length; x++) {
             sum += a[x];
         }
-        return sum/a.length;
+        return sum / a.length;
     }
-    
-    static void printArray(int[] a){
-        for(int x = 0; x < a.length; x++){
+
+    /**
+     * Prints out an entire array to the console
+     *
+     * @param a Array to be displayed
+     */
+    static void printArray(int[] a) {
+        for (int x = 0; x < a.length; x++) {
             System.out.print(" " + a[x]);
         }
         System.out.println();

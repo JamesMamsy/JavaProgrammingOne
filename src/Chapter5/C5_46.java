@@ -1,13 +1,13 @@
 package Chapter5;
+
 import java.util.Arrays;
 import java.util.Scanner;
+
 /**
  * Lets user enter a string and outputs the reverse of the string to the console
  *
  * @author James Miller
  */
-
-
 public class C5_46 {
 
     /**

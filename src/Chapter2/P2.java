@@ -1,12 +1,16 @@
-
 package Chapter2;
+
 import java.util.Scanner;
+
 /**
- * Determines total cost of meal with x cost of entree, drinks, etc; then adds tax and displays total. X being user inputed.
+ * Determines total cost of meal with x cost of entree, drinks, etc; then adds
+ * tax and displays total. X being user inputed.
+ *
  * @author James Miller
  */
 public class P2 {
-     /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -31,9 +35,8 @@ public class P2 {
         total = salesTax + subTotal;
         tip = total * .15;
         total = subTotal + tip;
-        
-        System.out.println("Meal: $" + subTotal + "\nTax: $" + salesTax + "\nTip: $" + tip + "\nTotal: $"+ total);
-        
-                
+
+        System.out.println("Meal: $" + subTotal + "\nTax: $" + salesTax + "\nTip: $" + tip + "\nTotal: $" + total);
+
     }
 }

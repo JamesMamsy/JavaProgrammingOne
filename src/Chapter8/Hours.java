@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter8;
 
 /**
@@ -69,7 +64,7 @@ public class Hours implements Comparable<Hours> {
     /**
      * compareTo comparator function overloaded, bases off total hours worked
      *
-     * @param comparedHour
+     * @param comparedHour Hour being compared to in totalHours value
      * @return Difference in hours
      */
     @Override

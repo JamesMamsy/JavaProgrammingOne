@@ -1,4 +1,3 @@
-
 package Chapter2;
 
 import java.util.Scanner;
@@ -20,14 +19,14 @@ public class C2_5 {
         float subTotal;
         float tipRate;
         float total;
-        
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter The Subtotal: ");
         subTotal = input.nextFloat();
-        
+
         System.out.print("Enter The gratuity rate (as whole number): ");
         tipRate = input.nextFloat();
-        
+
         tipRate = tipRate / 100;
         total = subTotal + (subTotal * tipRate);
         System.out.println("Your total plus tip is $" + total);
