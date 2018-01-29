@@ -28,7 +28,7 @@ public class C7_9 {
     /**
      * Finds smallest value in an array
      *
-     * @param array decsription?
+     * @param array Array of values to receive minimum from
      * @return Smallest Value
      */
     public static double min(double[] array) {

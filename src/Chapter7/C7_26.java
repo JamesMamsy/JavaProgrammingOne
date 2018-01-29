@@ -40,8 +40,8 @@ public class C7_26 {
     /**
      * Determines if two arrays are equal
      *
-     * @param list1 decsription?
-     * @param list2 decsription?
+     * @param list1 Array to be compared to list2
+     * @param list2 array to be compared to list1
      * @return True if two arrays are identical, false if not
      */
     public static boolean equals(int[] list1, int[] list2) {

@@ -64,7 +64,7 @@ public class Hours implements Comparable<Hours> {
     /**
      * compareTo comparator function overloaded, bases off total hours worked
      *
-     * @param comparedHour
+     * @param comparedHour Hour being compared to in totalHours value
      * @return Difference in hours
      */
     @Override
